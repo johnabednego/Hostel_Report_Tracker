@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hostel | Login</title>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1.0" />
+  <!--bootstrap links -->
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <script src="bootstrap.min.js"></script>
+
+  <!-- the main css link-->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <main class="about">
+         <div class="row top">
+        <div class="col-6 location">Senior Tutor's Office </div>       
+        <div class="col-6 open-hours">Open Hours: Mon -Fri: 8am - 5 pm, Saturday - Sunday: CLOSED on Accra</div>
+      </div>
+             <!-- Begining of the navigation bar-->
+       <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">ARAM HOSTEL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse collapsibleNavbar justify-content-end">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown">Rooms</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="sign-in.html">1 in a Room</a></li>
+                      <li><a class="dropdown-item" href="sign-in.html">2 in a Room</a></li>
+                      <li><a class="dropdown-item" href="sign-in.html">4 in a Room</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse collapsibleNavbar justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="sign-in.html"><button type="button" id="login">Sign in /Sign Up</button></a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+        </nav>
+                     <!-- End of the navigation bar-->
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner images">
+        <div class="carousel-item active">
+          <img src="/photos/green-building-hostel-the-scenery.jpg" alt="Los Angeles" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="/photos/Girls-Hostel-Building.jpg" alt="Chicago" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="/photos/hostel-1.jpg" alt="New York" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="/photos/hostel-7.jpg" alt="New York" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="/photos/hostel-10.jpg" alt="New York" class="d-block w-100" />
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <div class="managers">
+      <h1>Our Management Team</h1>
+      <div class="team-list">
+        <div class="members">
+            <div class="member">
+                <img src="abed.png" alt="">
+                <div class="details">
+                    <div class="data-item">
+                      <h3><a href="https://john-abednego-resume.netlify.app/" target="_blank">ABEDNEGO JOHN JILIMA
+                      </a></h3>
+                      <p>Senior Tutor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="member">
+                <img src="otu.png" alt="">
+                <div class="details">
+                  <div class="data-item">
+                    <h3><a href="https://epic-meitner-9f1fbc.netlify.app/" target="_blank">OTU MICHAEL
+                    </a></h3>
+                    <p>Chief Executive Officer</p>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="members">
+            <div class="member">
+                <img src="melv.png" alt="">
+                <div class="details">
+                  <div class="data-item">
+                    <h3><a href="https://personalcv-melvin.netlify.app/" target="_blank">AKPALU RICHARD MELVIN
+                    </a></h3>
+                    <p>Operations Manager</p>
+                  </div>
+              </div>
+            </div>
+            <div class="member">
+                <img src="abr.png" alt="">
+                <div class="details">
+                  <div class="data-item">
+                    <h3><a href="https://glistening-chimera-ec2e6a.netlify.app/" target="_blank">ABRAHAM FORKUO
+                    </a></h3>
+                    <p>Head of Staff</p>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </main>
+</body>
+
+</html>

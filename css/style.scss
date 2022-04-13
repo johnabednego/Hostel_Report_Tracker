@@ -1,0 +1,408 @@
+*{
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+  }
+// sign-in page style
+#registration{
+    background-image: url(/photos/hostel-7.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(232, 59, 6, 0.717);
+    .navbar{
+        background-color: rgb(232, 59, 6);
+
+        /*
+        input{
+            width: 200px;
+            border: solid 2px rgb(184, 17, 17);
+            outline-color: rgb(232, 59, 6);
+        }
+         */
+
+        #sign-up-btn{
+            margin-right: 20px;
+            color: aliceblue;
+            background-color: rgb(232, 59, 6);
+            border: outset 1px rgb(184, 17, 17);
+            padding: 4px;
+        }
+
+        /*
+        #search-btn{
+            background-color: rgb(232, 59, 6);
+            color: aliceblue;
+            border: solid 2px rgb(184, 17, 17);
+        }
+         */
+    }
+    .container{
+        color: aliceblue;
+        text-align: center;
+        span{
+            color: rgb(232, 59, 6);
+        }
+
+        /*
+        form{
+            background-color: rgba(163, 61, 32, 0.934);
+            width: fit-content;
+            border-radius: 15px;
+            display: flexbox;
+            //transform: translateX(90%);
+            //margin-top: 50px;
+            //padding: 15px;
+        }
+          */
+        
+        // sign up form
+        .credentials{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            width: 250px;
+            height: 30px;
+            margin: 10px;
+            padding:  20px;
+            border-radius: 25px;
+            border: hidden;
+            outline-color: rgb(232, 59, 6);
+            #myCheck{
+                outline-color: rgb(232, 59, 6) ;
+                
+            }
+        }
+
+        //submit button
+        .btn{
+            border-radius: 25px;
+            color: aliceblue;
+            border: hidden;
+            background-color: rgb(232, 59, 6);
+            width: 250px;
+            margin: 13px;
+            padding: 5px;
+        }
+    }
+}
+ // homepage style
+#homepage{
+    background-image: url(/photos/hostel-7.jpg);
+    .top{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        background-color: #eb5b3e;
+        padding: 10px 0px;
+        .location{
+            margin-left: 100px;
+            width: fit-content;
+        }
+        div{
+            color: rgb(199, 194, 194);
+        }
+    }
+    .navbar{
+        width: 100%;
+        padding-left: 20px;
+        background-color: rgb(232, 59, 6);
+        #login{
+            margin-right: 20px;
+            color: aliceblue;
+            background-color: rgb(232, 59, 6);
+            border: hidden;
+            box-shadow: 0.5px 0.5px 3px 3px rgba(199, 50, 9, 0.916), 0.5px 0.5px 3px 3px rgb(199, 68, 12);
+            padding: 5px 10px;
+            border-radius: 4px;
+            /*
+            margin-right: 20px;
+            color: aliceblue;
+            background-color: rgb(232, 59, 6);
+            border: outset 1px rgb(184, 17, 17);
+            padding: 4px;*/
+        }
+
+    }
+    .container{
+        color: aliceblue;
+        text-align: center;
+        margin-top: 80px;
+        span, .h5{
+            color: rgb(232, 59, 6);
+        }
+
+        button{
+            margin-right: 20px;
+            color: aliceblue;
+            background-color: rgb(232, 59, 6);
+            border: hidden;
+            //box-shadow: 0.5px 0.5px 3px 3px rgba(199, 50, 9, 0.916), 0.5px 0.5px 3px 3px rgb(199, 68, 12);
+            padding: 8px;
+            border-radius: 25px;
+            width: 200px;
+            margin-top: 50px;
+        }
+    }
+    .words {
+        color: #f4d03f;
+        font-size: 0;
+        line-height: 1.5;
+        margin-top: 60px;
+        span{
+            font-size: 2rem;
+            display: inline-block;
+            animation: move 3s ease-in-out infinite;
+            margin-right: 20px;
+            color: aliceblue;
+            border: hidden;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 35px;
+            margin-top: 90px;
+          }
+          #w-1{
+            background-color: #e83b06;
+        }
+        #w-2{
+            
+            background-color: blue;
+        }
+        #w-3{
+            background-color: black;
+        }
+    }
+    
+      
+      
+    @keyframes move {
+        0% {
+          transform: translate(-30%, 0);
+        }
+        50% {
+          text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+        }
+        100% {
+          transform: translate(30%, 0);
+        }
+      }
+    
+}
+
+#sign-up{
+    .navbar{
+        width: 100%;
+        background-color: rgb(232, 59, 6);
+    }
+
+    .form-control{
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: solid 1px rgb(232, 59, 6);
+        outline-color: rgb(232, 59, 6);
+    }
+
+    .btn{
+        margin-top: 20px;
+        background-color: rgb(232, 59, 6);
+        border: hidden;
+        border-radius: 10px;
+    }
+
+    tr{
+        margin-bottom: 20px;
+    }
+
+    h1{
+        color: rgb(232, 59, 6);
+        text-align: center;
+    }
+
+    #login{
+        margin-right: 20px;
+        color: aliceblue;
+        background-color: rgb(232, 59, 6);
+        border: hidden;
+        box-shadow: 0.5px 0.5px 3px 3px rgba(199, 50, 9, 0.916), 0.5px 0.5px 3px 3px rgb(199, 68, 12);
+        padding: 5px 10px;
+        border-radius: 4px;
+    }
+
+    .radio{
+        margin: 5px;
+    }
+
+    .container{
+        border: rgb(232, 59, 6) solid 2px;
+    }
+}
+
+.images{
+    img{
+        width: 70px;
+        height: 60vh;
+    }
+}
+.about{
+    .top{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        background-color: #eb5b3e;
+        padding: 10px 0px;
+        .location{
+            margin-left: 100px;
+            width: fit-content;
+        }
+        div{
+            color: rgb(199, 194, 194);
+        }
+    }
+    .navbar{
+        width: 100%;
+        background-color: rgb(232, 59, 6);
+        #login{
+            margin-right: 20px;
+            color: aliceblue;
+            background-color: rgb(232, 59, 6);
+            border: hidden;
+            box-shadow: 0.5px 0.5px 3px 3px rgba(199, 50, 9, 0.916), 0.5px 0.5px 3px 3px rgb(199, 68, 12);
+            padding: 5px 10px;
+            border-radius: 4px;
+            /*
+            margin-right: 20px;
+            color: aliceblue;
+            background-color: rgb(232, 59, 6);
+            border: outset 1px rgb(184, 17, 17);
+            padding: 4px;*/
+        }
+    }
+    .container{
+        color: aliceblue;
+        text-align: center;
+        span{
+            color: rgb(232, 59, 6);
+        }
+
+        /*
+        form{
+            background-color: rgba(163, 61, 32, 0.934);
+            width: fit-content;
+            border-radius: 15px;
+            display: flexbox;
+            //transform: translateX(90%);
+            //margin-top: 50px;
+            //padding: 15px;
+        }
+          */
+        
+        // sign up form
+        .credentials{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            width: 250px;
+            height: 30px;
+            margin: 10px;
+            padding:  20px;
+            border-radius: 25px;
+            border: hidden;
+            outline-color: rgb(232, 59, 6);
+            #myCheck{
+                outline-color: rgb(232, 59, 6) ;
+                
+            }
+        }
+
+        //submit button
+        .btn{
+            border-radius: 25px;
+            color: aliceblue;
+            border: hidden;
+            background-color: rgb(232, 59, 6);
+            width: 250px;
+            margin: 13px;
+            padding: 5px;
+        }
+    }
+    .managers{
+        padding-top: 120px;
+        padding-bottom: 100px;
+        position: relative;
+        h1{
+            margin-left: 35%;
+         
+        }
+        .team-list{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        .members{
+            margin-left: 15px;
+            display: flex;
+            flex-wrap: wrap !important;
+            width: 37%;
+        }
+        .member{
+            margin-top: 65px;
+            display: flex;
+            width: 70%;
+            background-color: #131e67;
+            border-radius: 30px;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            .details{
+                background-color: #fff;
+                width: calc(100% - 47px);
+                bottom: 0;
+                right: 0;
+                padding-left: 33px;
+                padding-right: 33px;
+                display: flex;
+                margin-left: 50px;
+                padding-top: 18.5px;
+                padding-bottom: 18.5px;
+                margin-bottom: -46.5px;
+                align-items: center;
+                border-bottom-right-radius: 25px;
+                box-shadow: 2.63px 5.393px 35px 0 rgba(105, 10, 10, 0.09);
+                h3{
+                    margin: 0;
+                    color: #162171;
+                    font-size: 22px;
+                    font-weight: 700;
+                    line-height: 1em;
+                    margin-bottom: 12px;
+                    a{
+                        text-decoration: none;
+                        color: #162171;
+                    }
+                }
+                p{
+                    margin: 0;
+                    color: #3a505f;
+                    font-size: 15px;
+                    line-height: 1em;
+                }
+            }
+        }
+        
+        .members img{
+            object-fit:cover;
+            border-radius: 50%;
+            width: 50%;
+            margin-left: 70px;
+            height: 30vh;
+            overflow: hidden;
+            background-color: #131e67;
+            transition: all 500ms ease;
+            vertical-align: middle;
+            border-style: none;
+        }
+    }
+}
+}
